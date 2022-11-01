@@ -32,7 +32,9 @@ jobs:
         run: touch markdown.md
       - name: git
         run: git add *
-      - name: git
+      - name: git2
+        run: git commit -m "XDD"
+      - name: git3
         run: git push
 
       # Runs a set of commands using the runners shell
